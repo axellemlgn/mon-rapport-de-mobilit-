@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNTIONAL STUDENT CENTER</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour le conteneur d'image */
+.image-container {
+    width: 150% !important; /* Assure que le conteneur prend toute la largeur disponible */
+    padding: 0; /* Évite les marges supplémentaires dans le conteneur */
+    margin-left: 0; /* Évite tout décalage par rapport au texte */
+    margin-top: 0; /* Réinitialise le décalage vertical */
+}
+
+/* Style pour les images à l'intérieur du conteneur */
+.image-container img {
+    width: 100% !important; /* Assure que l'image prend toute la largeur du conteneur */
+    max-width: none !important; /* Supprime toute limite maximale de taille pour agrandir les images */
+    height: auto; /* Conserve le ratio d’aspect pour l'image */
+    border-radius: 8px; /* Coins arrondis pour le style */
+    margin-bottom: 15px; /* Espacement sous l'image */
+}
+	
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+}
+
+/* Adaptations pour petits écrans */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100% !important; /* Conteneur prend toute la largeur sur les tablettes */
+        margin-left: 0 !important; /* Réinitialise le décalage pour petits écrans */
+    }
+    .image-container img {
+        width: 100% !important; /* Image prend toute la largeur du conteneur */
+        max-width: 100% !important; /* Assure que la taille s'adapte aux petits écrans */
+        height: auto; /* Conserve le ratio d’aspect */
+    }
+}
+
+/* Adaptations pour très petits écrans */
+@media (max-width: 480px) {
+    .image-container {
+        width: 100% !important; /* Le conteneur prend toute la largeur disponible */
+    }
+    .image-container img {
+        width: 100% !important; /* Image prend toute la largeur du conteneur */
+        height: auto; /* Conserve le ratio d’aspect */
+    }
+}
+
+}
+
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		<h2 class="section-title">2- Le INTERNATIONAL STUDENT CENTER</h2>
+            <p>Avec mes camarades, nous nous retrouvions régulièrement dans un bâtiment à l’extrémité nord du campus de la YNU, appelé le <em>International Student Center</em>, le centre des étudiants internationaux. C’était en ce lieu que se déroulaient les cours de japonais, mais également la grande majorité des classes dispensées en anglais. Ce bâtiment comportait également un espace moins scolaire, destiné au rassemblement des étudiants, et je m’y rendais très régulièrement pour déjeuner avec mes camarades. Toutefois, je n’ai pas pu m’empêcher de remarquer que l’université comportait également un <em>Student Center</em> en plein cœur du campus, qui avait des fonctions similaires à celui que je viens de vous présenter, mais était destiné aux étudiants réguliers de l’université. Bien sûr, l’accès ne nous y était pas interdit, mais cette séparation m’a interrogé en ce qu’elle pouvait nous isoler du reste de la vie étudiante, et était une petite barrière à notre immersion complète dans la culture universitaire japonaise. De manière générale, j’ai trouvé difficile de créer de vrais liens d’amitié avec des Japonais. Tout d’abord, à cause de la barrière de la langue, puisque je ne parle qu’un japonais très limité, et que peu de Japonais maîtrisent l’anglais. En effet, les locaux que nous fréquentons en dehors des classes étaient tous particulièrement tournés vers l’étranger, parce que ces étudiants japonais revenaient ou s'apprêtaient à partir en mobilité d’étude vers l’Europe. En outre, si ces derniers sont très sympathiques et n’avaient pas de difficulté à rire avec nous, il était difficile de nouer des liens plus personnels, car les relations amicales japonaises me sont apparu comme étant très formelles et peu spontanées.
+			</p>
+			<br><p>En tant qu’étudiante internationale ne parlant pas couramment le japonais, je faisais partie du programme <em>Junior Year Overseas</em>, mentionné sous le délicat anagramme de “JOY program”. Celui-ci proposait des classes en langues anglaise et japonaise, axées principalement sur le management, l’économie, la civilisation et la langue japonaise. Comme les autres étudiants en échange ne parlant pas japonais, je n’ai pas suivi mes cours dans les différents cursus de l’université correspondant à mon domaine et à mon niveau d'études. Je devais choisir mes cours parmi une liste de matières créées et dispensées pour les étudiants du JOY program anglophone, ouvertes à tous les niveaux et toutes formations. Dès lors, j’ai par exemple suivi un cours d’économie avec autant d’étudiants novices dans ce domaine, que d'étudiants dont c’était la spécialité. Entre autres, nous avons eu accès aux matières enseignées uniquement une fois être physiquement arrivés à l’université, et le panel de classes dispensé en anglais était très littéraire ou relevant des sciences appliquées plutôt que des sciences dures. Dès lors, deux de mes camarades, qui suivaient originellement des formations d'ingénieur et de mathématique, ont eu quelques difficultés à s’y retrouver. Étant par défaut propulsées dans une classe de gestion ou encore d’études des médias, elles ont dû travailler un peu plus dur que le reste des étudiants présents, afin d’acquérir les compétences requises à l’examen. Toutefois, j’ai trouvé que les cours pouvaient être moins exigeants que dans ma licence sur certains pendants, notamment dans la rédaction. J’ai réalisé très peu d'exercices me demandant de véritablement développer ma pensée et requérant de longues productions écrites. 
+			</p>
+			<br><p>La classe qui se rapprochait le plus de ma formation à Poitiers, fut le cours dédié à la “Représentation et aux Médias” (<em>Representation and the Media</em>). Enseigné par une professeure originaire du Moyen-Orient, nous y abordions la manière dont la multitude de médias dont nous disposons (le cinéma, la télévision, la presse écrite aussi bien que les réseaux sociaux et la publicité) peuvent représenter diverses réalités sociales, politiques et culturelles. Nous nous sommes attardés sur la manière dont les individus, les événements, les groupes sociaux et les identités (de genre ou de race par exemple) sont dépeints ou construits par le discours médiatique, et l’influence que possède ce-dernier sur notre perception du monde et de nous-même. Ce cours m’a rappelé celui de Julien Rault d’”Analyse du discours politique” qu’il m’a été donné de suivre en première année de ma licence. Si le cours de monsieur Rault était très axé sur une analyse textuelle de la question, le cours de “Représentation et des Médias” s'attardait davantage sur le langage médiatique visuel, notamment celui de la publicité. Lors d’un exercice, j’ai par exemple dû présenter à la classe une série de photos de mon fait, devant représenter une émotion en reprenant les codes étudiés en amont. Étant une amatrice de photographie, j’ai trouvé cet exercice amusant et original. Toutefois, la charge de travail de ce cours était assez conséquente puisque nous avions à soumettre chaque semaine une production écrite. Celle-ci était sous forme d’un essai afin d’exprimer notre opinion et ses contre arguments sur un sujet donné, dans un écrit très court. Étant habitué aux dissertations détaillées et rigoureuses, j’ai trouvé ce format de l'essai assez frustrant, car ne permettant pas d’aller au fond des sujets de par la limite de caractères imposée. En plus de ces productions écrites, nous devions lire un ou plusieurs textes pour préparer chaque nouveau cours. Ces documents étaient généralement ceux de théoriciens, comme Stuart Hall ou Roland Barthes, afin de nous familiariser avec de nouveaux concepts. 
+			</p>
+			<p>La classe en elle-même était très différente de ce que j’ai connu durant ma scolarité, que ce soit en France ou en Espagne, car le cours reposait presque entièrement sur la participation des élèves et la création de débats. En cela, le déroulé choisi pour cette classe se rapprochait du modèle dit anglo-saxon, c’est-à-dire que chaque classe était introduite par une question en lien avec le thème du texte que nous avait été donné de lire, et nous devions en discuter avec nos camarades avant de porter notre réflexion au reste de la classe. En effet, très peu de séances étaient des séances de lecture et de prise de notes plus traditionnelles. J’ai trouvé cette pédagogie horizontale intéressante, car je me suis sentie plus impliquée dans le dynamisme du cours, et donc plus motivée à prendre des initiatives. Toutefois, si cet apprentissage participatif amène plus de débat entre les élèves, il n'était pas, à mon sens, adapté à notre classe. En effet, nous n'étions que cinq étudiantes inscrites dans ce cours: quatre Françaises et une Kirghize. Si ce petit chiffre rend les échanges plus spontanés, il ne mettait pas à l’épreuve notre esprit de contradiction en ce que nous étions en accord sur quasiment tout.  En effet, nos échanges dérivaient très souvent vers le sujet du féminisme et, bien que je trouve ce thème absolument passionnant,  nous échangions des arguments qui nous confortaient dans nos convictions communes, sans véritables contradictions. De manière générale, il n’était pas rare que nous soyons un nombre aussi réduit d’étudiants par classe. En effet, contrairement à mon premier semestre effectué à l'université d’Oviedo, où nous étions environ quatre cents étudiants liés au programme Erasmus ;  le JOY programme regroupait une soixantaine d’étudiants dont seulement une quarantaine suivait les cours dispensés en anglais. Dès lors, puisque les étudiants japonais suivaient très rarement nos cours anglophones, les classes étaient assez intimistes et dépassaient rarement la quinzaine d’étudiants.  
+			</p>
+			<br><p>Le contre-exemple de cette affirmation serait ma classe de <em>Yokohama Studies</em> dédiée, à l’étude de l’histoire de ma ville d'accueil, car la salle de classe était comble. Ce cours croisait les regards sociaux, culturels et historiques pour nous amener à comprendre le rôle de la ville de Yokohama aujourd’hui dans la région métropolitaine de Tokyo. Mais également son rôle dans la modernisation du Japon, son architecture et son influence sur la culture japonaise moderne, depuis l’ouverture de son port en 1854. En effet, au XIXe siècle, le Japon fut forcé de mettre un terme à deux siècles de politique protectionniste par les États-Unis, et le port de Yokohama fut le premier à s’ouvrir au commerce international. Ce dernier a donc largement influencé la modernisation du pays. Je suppose que ce cours avait autant de succès, parce que c’était le seul cours d’histoire proposé en anglais, et qu'en tant qu’étudiants étrangers, nous souhaitions nous familiariser davantage avec l’histoire de ce pays que nous affectionnons particulièrement. Pour ma part, je n’avais que très peu de connaissances historiques à ce sujet. Cette classe a donc éveillé mon attention sur les fondements culturels du Japon moderne, et la relation complexe, voire ambiguë, qu’il entretient avec sa modernité et ses traditions. Chaque classe était dédiée à l’étude d’un événement particulier ou des concepts propres au Japon. 
+			</p>
+			<p>Tout comme dans ma classe de “Représentation et des médias”, nous devions lire au préalable de chaque classe un ou plusieurs textes, afin de nous familiariser avec l’épisode historique qui serait le sujet du cours suivant. J’ai par exemple été très intéressée par un essai de J.Karlin, qui expliquait le lien entre l’évolution des représentations de genre dans la société japonaise, et le développement d’une identité nationale durant l’ère Meiji (de 1868 à 1912). J’y ai trouvé des éléments de réponse quant aux soucis des Japonais de conserver leur identité nationale face à l’influence occidentale. En effet, en adoptant les vêtements de l'aristocratie européenne, les élites japonaises étaient perçues comme matérialistes et efféminées par une partie de la population, qui revendiquait une masculinité plus traditionnelle à travers le port de tenues typiquement japonaises. Par ailleurs, chaque séance était introduite par un exposé en groupe d’environ vingt minutes, expliquant et développant le texte que nous avait été donné de lire, cet exposé donnant lieu à une note. J’ai ainsi été amené à travailler sur le massacre des Coréens par la population de Yokohama en 1923. Ce qui rendait cette classe aussi riche, c’était la diversité de nationalité parmi les élèves. Par exemple, sur ce sujet-ci, ce fut intéressant d’entendre les remarques de mes camarades Coréens, mais aussi Japonais, sur un épisode aussi sensible. Cela nous a permis de réaliser que cet événement n’était pas enseigné, ni perçu de la même manière dans les deux pays, et a mis en lumière les différences de perspective historique entre la Corée et le Japon. Cette confrontation nous a permis d’engager des conversations plus profondes sur l’importance du récit historique dans la formation des identités nationales. En plus de la lecture de texte et des exposés, nous devions chacun préparer une question à soumettre au professeur, qui s'efforçait à nous répondre dans la seconde moitié de la séance. Cette approche incitait à une lecture attentive et à une compréhension critique du texte, néanmoins elle en faisait une cours avec une lourde charge de travail. 
+			</p>
+			<br><p>La matière qui requierais le plus de travail fut ma classe de Japonais. À hauteur de trois cours d’une heure et demi par semaine, auxquels s’ajoutait deux heures de classe de <em>kanji</em> (type d’écriture japonaise issu du chinois), cette classe demandait beaucoup de rigueur. Toutefois, je suis très satisfaite des progrès que cela m’a permis d'accomplir. De fait, je suis arrivée au Japon en connaissant exactement trois mots : “bonjour” (<em>konichiwa</em>), “merci” (<em>arigato</em>) et “au revoir” (<em>sayonara</em>), dès lors, cette classe m’a permis de quelque peu étoffer mon vocabulaire. Si certains de mes camarades ont parfaitement pu évoluer dans le pays sans connaître le japonais, cela me tenait à cœur d’apprendre cette langue. Tout d’abord parce que les Japonais ont un niveau d’anglais très moyen, ce qui ne facilite pas la conversation. De plus, il me semble qu’ils apprécient beaucoup quand les étrangers parlent un petit peu leur langue. Il m’est arrivé à plusieurs reprises de faire mes devoirs de japonais lors d’un long trajet en métro, et d’être gratifié par le <em>ganbare</em> d’un inconnu ( littéralement, on peut traduire ce terme par “Fais de ton mieux”, c’est une manière commune d’encourager quelqu’un ). De plus, cela a ses avantages: en effet, lors d’un voyage en train, je me suis retrouvée assise à côté d’un jeune Japonais apprenant l’anglais. Dans un échange de bons procédés, il a terminé mes exercices de japonais, et moi ses devoirs d’anglais, une collaboration qui s’est avérée très fructueuse.  Enfin, c’est pour des raisons purement esthétiques que j’ai choisi de me lancer dans l’apprentissage de la langue que je trouve particulièrement délicate et douce à écouter. En outre, il m’est apparu que l’accent est plutôt facile à adopter, et la prononciation est bien moins difficile pour une française que d'autres langues asiatiques, comme le chinois mandarin. Je me permets cette comparaison, car j’ai eu la chance de pouvoir étudier le mandarin durant mes années de lycée ainsi que ma première année à l'université. Durant cet apprentissage, j’ai beaucoup souffert des tons chinois qui changent la hauteur de prononciation de chaque syllabe, ce dont j’ai été libéré avec le japonais.
+			</p>
+			<p>Mon étude du chinois m’a également été bénéfique, car le japonais reprend son écriture dans les <em>kanji</em>. Ces derniers sont des caractères logographiques qui ont été exportés au cours des invasions répétées et de l’importation du bouddhisme. Il en existe plusieurs milliers et environ deux mille sont utilisés dans la vie quotidienne des Japonais. Pour ma part, j’en ai appris une centaine durant ce semestre. Les <em>kanji</em> ne sont pas vraiment des mots, mais chaque <em>kanji</em> représente plutôt une idée. C’est ce qui fait, selon moi, la difficulté de cette écriture, car chacuns d’entre eux ont plusieurs sens, et plusieurs prononciations, selon le contexte. Par exemple, le <em>kanji</em> “学” peut se lire <em>gaku</em> signifiant alors “étude”, mais également <em>manabu</em> que l’on traduirait par le verbe apprendre ;  il est également utilisé dans le mot “médecine”, celui de “littérature” et bien d’autres encore. D’autre part, si les caractères sont les mêmes que ceux utilisés en mandarin, leur prononciation est totalement différente, ce qui m’embrouillait quelque peu. J’accorde également aux <em>kanji</em> une grande élégance, ils sont d’ailleurs parfois utilisés dans l’art et la calligraphie, ajoutant une valeur visuelle à leur fonction linguistique. Toutefois, je trouvais la classe de <em>kanji</em> assez ennuyante, car chaque séance était dédiée à l’apprentissage par cœur de caractères, ce qui m’a vite lassé. 
+			</p>
+			<p>En outre, ce n’est pas le seul système d’écriture: dans les phrases japonaises, les <em>kanjis</em> sont mêlés aux <em>hiraganas</em> et aux <em>katakanas</em>. Ces deux systèmes d’écriture sont plus proches de notre fonctionnement alphabétique car ils sont syllabiques, c'est-à-dire que chaque signe équivaut à une syllabe, donc un mot est formé par l'addition de plusieurs signes. Les <em>hiraganas</em> sont utilisés pour certains termes, mais ont principalement une utilité grammaticale. Ce sont surtout des particules, des terminaisons de verbes et d’adjectifs, comme l’<em>hiragana no</em> (の) qui marque le possessif. Les <em>katakanas</em>, quant à eux, servent à écrire les mots d’origine étrangère, notamment les noms des pays, comme la France qui s’écrit “フランス” (<em>furansu</em>).. J’ai été extrêmement surprise par l’importance des anglicismes dans la langue japonaise. En effet, beaucoup de leurs mots sont tirés de l’anglais et sont complètement intégrés au lexique japonais. Ils portent un nom, celui de <em>wasei-eigo</em> (和製英語), l’“ anglais fabriqué au Japon”. Cela m’a d’autant plus intrigué qu’ils peuvent servir à désigner des objets sans lien avec l’étranger, comme le terme de “douche” シャワー (<em>shawā</em>, tiré de l’anglais shower) ou encore de “devoir” れぽーと (<em>repōto</em>, venant du terme report). Quelques recherches m’ont permis de comprendre que les <em>wasei-eigo</em> font leur entrée dans la langue japonaise durant l’ère Meiji, alors que le pays s’ouvre à l’étranger, et sont aujourd’hui très utilisés par les publicitaires qui surfent sur la mode de l’utilisation de l’anglais. Chacun de ces deux systèmes d'écriture, les <em>katakanas</em> et <em>hiraganas</em>, comporte une cinquantaine de signes, ce qui les rend relativement rapides à apprendre.  Ainsi, ce fut très satisfaisant de pouvoir lire certains mots dans l’espace public après un mois d’étude du japonais. De manière générale, il était très gratifiant de pouvoir appliquer dans ma vie quotidienne ce qui m'était enseigné, et d’ainsi toucher du doigt ma progression.
+			</p>
+			<p>Pour ma part, j’appréciais beaucoup ma classe de Japonais qui était très dynamique, car les cours étaient basés sur la participation, et donc l’oral. La professeure était extrêmement bienveillante  et avait réussi à créer une ambiance sereine qui nous permettait d’être à l’aise avec les exercices oraux, et donc de nous exprimer avec confiance. Nous l’avons d’ailleurs chaleureusement remerciée pour cela à la fin du semestre, en lui offrant une carte de notre main ainsi que, en bons occidentaux, une boîte de chocolats. La bonne entente dans la classe était d’autant plus importante qu’il y avait une grande différence d’âge entre les étudiants. Si j’étais la plus jeune, sur les huit étudiants qui constituaient la classe, trois de mes camarades avaient trente ans ou plus. En outre, une fois par semaine, des <em>supporters</em> se joignaient à notre classe. C'est-à-dire que des étudiants japonais volontaires, participaient à la classe afin de nous permettre de pratiquer leur langue avec eux. Cela m’a permis de mieux cerner la prononciation des mots mais aussi d’échanger sur les lieux à voir dans la ville. De plus, je crois qu’ils étaient satisfaits de pouvoir échanger en anglais, et ainsi de mettre en pratique ce qui leur était enseigné dans leurs propres classes de langues. Notre examen final consistait d’ailleurs en une conversation en japonais en tête à tête avec la professeure. Nous avions également trois importantes évaluations au cours du semestre, afin de tester notre expression et notre compréhension du japonais, aussi bien à l’écrit qu'à l’oral. À cela s’ajoutaient des évaluations de vocabulaire à chaque début de cours, faisant de cette matière celle qui avait le rythme le plus soutenu et me demandait le plus d’assiduité. 
+			</p>
+			<br><p>À l’inverse, ma classe dédiée à l’étude de l’économie politique internationale (<em>International Political Economy</em>) avait un système d’évaluation plus proche du système que je connais à la faculté de Poitiers, c'est-à-dire une seule évaluation à la fin du semestre. J’ai été assez déçu par cette classe, dont j’attendais beaucoup, car je trouve le sujet absolument passionnant. L’objectif de ce cours était de comprendre comment les politiques économiques et les relations internationales s’influencent mutuellement, au travers de l’évocation des différentes théories de l’économie politique et des stratégies de développement des pays. Néanmoins, l’enseignement délivré avait une forte couleur politique, avec notamment des propos avancés autour du sujet de la colonisation qui vont très fortement à l’encontre de mes convictions personnelles. Cette classe était un cours magistral, qui reposait donc sur une lecture du cours, appuyée par un diaporama. Cela limitait fortement l’engagement des étudiants dans la classe, ainsi que la diversité des opinions exprimées. De plus, l’examen était un questionnaire à choix multiples, ce qui ne nous permettait pas d’exposer et de développer notre propre réflexion sur le sujet donner.
+			</p>
+			<br><p>Malgré cela, j’ai trouvé ce semestre à la YNU très enrichissant scolairement parlant. Hormis ma professeure de japonais, l’ensemble de mes enseignants étaient issus de l’étranger. Dès lors, je ne peux porter une véritable réflexion sur les méthodes et les pratiques de l’enseignement à la japonaise. Toutefois, j’ai beaucoup aimé avoir une telle diversité d’approche pédagogique avec un si vaste horizon culturel, que j’ai trouvé très stimulant. Enfin, ce semestre m’a permis de toucher du doigt la rigueur de l’administration japonaise. En effet, mon université, comme les services de l’immigration japonaise, avaient des règles très strictes et non flexibles. Je devais par exemple aller signer en personne un document officiel tous les mois, à une date donnée, afin de prouver ma présence sur le territoire. Par ailleurs, l’université était très pointilleuse en ce qui concernait notre assiduité en classe et les délais de remise des documents officiels. 
+			</p>
+		
+		</div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><img src="cartecampus.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Carte du campus de la YNU provenant du site de l'université</figcaption>
+            <br><br><br><br><br><br><br><br><br><br><br><img src="groupesurcampus.jpg" alt="tatoo interdit">
+			<figcaption>Photo sur le campus avec des amies</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="mediaun.png" alt="tatoo interdit">
+			<br><img src="mediadeux.png" alt="tatoo interdit">
+			<figcaption>Extrait de ma présentation sur les codes en photographie</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="yokohamadeux.jpg" alt="tatoo interdit">
+			<figcaption>La ville de Yokohama, photo GoogleMaps</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="yokohamatrois.jpg" alt="tatoo interdit">
+			<figcaption>Le port touristique de Yokohama, photo Wikivoyage</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="hiraganas.jpg" alt="tatoo interdit">
+			<figcaption><em>Hiraganas</em></figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><img src="katakanas.jpg" alt="tatoo interdit">
+			<figcaption><em>Katakanas</em></figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="coursjaponais.jpg" alt="tatoo interdit">
+			<figcaption>Photo de groupe de ma classe de japonais</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="campusdeux.jpg" alt="tatoo interdit">
+			<figcaption>Campus de la YNU, photo venant du site de l'université</figcaption>
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
