@@ -1,0 +1,189 @@
+<<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARAJUKU</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+	
+		
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+			}
+
+        /* Style pour l'image à droite */
+        .image-container {
+    max-width: 65%; /* Diminue la largeur maximale à 25% */
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    padding: 10px; /* Réduit légèrement le padding */
+    margin-left: 1px; /* Réduit l'espace entre le texte et l'image */
+    margin-top: 23px; /* Décalage réduit en haut */
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 100%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+			
+			
+	}
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		 <h2 class="section-title">6 - HARAJUKU</h2>
+            <p>A côté du très célèbre quartier de Shibuya où se situe le plus grand passage piéton du monde, se trouve le plus discret quartier d’Harajuku. Il n’en est pas moins emblématique et vivant selon moi, c’est le lieu où il faut se rendre pour découvrir le côté le plus créatif de la ville, en particulier sa culture pop, le cosplay et la culture <em>kawaii</em> très prisée de la jeunesse japonaise. Je m’y suis rendue dans les tout premiers jours qui ont suivi mon arrivée au Japon et je ne fus pas surprise du dépaysement que ce lieu m’offrait. Sa rue principale, Takeshita Dori, est l’un des mes lieux préférés de Tokyo et reste une expérience à part entière. Elle est bordée des boutiques les plus excentriques, vendant des vêtements et gadgets <em>kawaii</em>, mais aussi des crêperies et des cafés sur le même thème.
+			</p>
+			<br><p> Au premier abord, cette mode du <em>kawaii</em> m'avait déstabilisé et amusé mais elle m’a également fait réfléchir sur la vision qu’elle porte sur les femmes, car elle entre en contradiction avec mes idées féministes. En effet, même si toute la société japonaise, tous genres confondus, a un attrait pour cette culture du “mignon”, le <em>kawaii</em> touche principalement les jeunes femmes. Ce phénomène valorise l’innocence, la douceur et tout ce qui se rapporte à l’enfance que ce soit dans les vêtements ou dans les comportements. Elle véhicule donc une image très stéréotypée des femmes incitant à leur infantilisation et à adopter des comportements passifs, renforçant les normes de genre traditionnelles. C’est l’omniprésence de ce concept dans l’attitude des Japonaises qui m’a le plus surprise : mon université proposait une journée portes ouvertes des clubs sur le campus et pour nous faire adhérer aux leurs, les Japonaises nous présentaient leurs activités en adoptant  un comportement complètement “kawaii” avec une voix très haut perchée, adoptant des mimiques enfantines, comme placer leurs mains près de leurs joues ou sautiller sur un pied. J’ai été très décontenancée lors de ma première interaction de cette nature, loin du modèle européen qui valorise l'érotisme et la maturité féminine. En effet, ces comportements juvéniles me paraissent les montrer comme faibles, innocentes et incapable d’autonomie.
+			</p>
+			<p>Cela renvoie au concept d’”amae” qui est une émotion, un sentiment d’attachement  et de confiance dont je n’ai pas trouvé d’équivalent dans notre culture européenne. Ce sentiment de dépendance est très valorisé dans la culture japonaise et désigne généralement le lien entre un enfant et ses parents, mais peut aussi être utilisé pour évoquer la relation entre un mari et sa femme par exemple. Ce n'est pas spécialement un comportement infantile mais une situation où une personne s’appuie émotionnellement sur une autre en recherchant de l’indulgence. Dès lors, le rôle enfantin que certaines femmes peuvent se donner, renforce l’idée qu’elles ont besoin d’être protégées et contrôlées par un homme. Cela les empêche de s’affirmer, de revendiquer une égalité des sexes et bloque leur émancipation personnelle et professionnelle. 
+			</p>
+			<br><p> Les représentations médiatiques des femmes <em>kawaii</em> sont omniprésentes dans les publicités, les mangas, les émissions de télévision et ce phénomène est promu par l’initiative “Cool Japan” (クールジャパン). Ce concept est créé en 2002 par le gouvernement japonais afin de présenter le Japon comme une superpuissance culturelle. Ce soft power montre les mangas, la robotique, leur gastronomie et également la culture <em>kawaii</em> comme une composante de l’identité japonaise à l’internationale véhiculant un idéal féminin qui conforte l’hégémonie patriarcale japonaise et l’idée que les femmes doivent rester dociles pour plaire à la société et aux hommes. En effet, la domination de l’esthétique <em>kawaii</em> dans la sphère médiatique limite la diversité des représentations des femmes, créant un cadre normatif rigide dont il doit être difficile de se détacher. De plus, en valorisant l’immaturité et la dépendance, cette culture peut avoir un impact sur la vie amoureuse des femmes hétérosexuelles où les hommes en quête de partenaires <em>kawaii</em>, cherchent des relations inégalitaires basées sur des rapports de domination; l’impact est également grand dans le monde du travail, car cela peut nuire à la progression de leur carrière. D'un autre côté, en approfondissant un peu mes recherches, j’ai trouvé des témoignages de femmes qui affirment se réapproprier la culture <em>kawaii</em> comme une forme d'expression personnelle et de résistance aux attentes de la société japonaise traditionnelle et à la culture d’entreprise. 
+			</p>
+			<br><p>Comme toutes les modes, l’esthétique kawaii doit être réinterprétée selon les besoins individuels de chacunes et chacuns.
+			</p>
+			<br><p>La culture visuelle japonaise a contribué à une certaine normalisation de la sexualité commerciale. Certains médias représentent la sexualité féminine de manière fantaisiste ou exagérée, influençant les attitudes envers la sexualité et l’industrie du sexe. Je fus très surprise de constater qu’avec les clubs hôtesses, les love-hotels sont une partie “normale” du paysage urbain. Ils sont très présents à Harajuku, mais également dans les quartiers très prisés de Shibuya, Shinjuku, et ne sont pas du tout dissimulés aux yeux des passants. Cela m’avait d’autant plus étonné que la société japonaise me paraît très traditionnelle et pudique. Je ne suis pas une grande consommatrice de manga, mais les films et séries japonaises que j’ai regardé, qui évoquent l’amour romantique, accordent une importance minime à la dimension sexuelle comparée aux films français ou américains qui sont plus explicites. Je me demande si dans la culture japonaise le sexe n’est pas nécessairement vu comme l’aboutissement de l’amour, mais plutôt comme un besoin distinct qui peut être satisfait ailleurs. Au détour d’une conversation avec un ami de Yokohama, il m’expliquait qu’il ne considérait pas qu’avoir des relations sexuelles tarifées tout en étant un homme marié était un adultère, et cette idée semble être très répandue (sans être pour autant une généralité). La prostitution est illégale au Japon, néanmoins il existe une sorte de ” zone grise” qui inclut notamment les clubs d’hôtesses (<em>kyabakura</em>) et offrent des activités semi-sexuelles qui n’entrent pas dans la définition légale de la prostitution. Ces clubs divertissent leurs clients en créant une atmosphère de séduction, mais sans prestation sexuelle directe. Cependant, des relations intimes peuvent être négociées de manière informelle en dehors du cadre du club, afin d’éviter toutes violations de la loi anti-prostitution. Ces lieux sont omniprésents à Tokyo, il m’est arrivé de me rendre dans des chaînes de karaoké très populaires dans des quartiers conformes de la capitale qui avaient un étage dédié à ces services. La prostitution moderne au Japon est appelée l’industrie du <em>fuzoku</em> (qui se traduit littéralement par “services pour adultes”) et  représente 1% du PIB, soit l’équivalent du budget de la défense nationale japonaise ce qui peut expliquer pourquoi demeure autant tolérée. Cette tolérance silencieuse s’explique d’autant plus que le Japon met un fort accent sur l’harmonie sociale et l’évitement des conflits. Se créer un “silence social” autour des comportements considérés comme inévitables, l’essentiel étant que ces activités se déroulent discrètement et soient confinées à des espaces appropriés.
+			</p>
+			
+			 <br><br><br><p>      En conclusion de ce rapport, mon année d’échange au Japon a constitué une expérience enrichissante qui a transcendé le cadre académique pour devenir une exploration profonde des dimensions culturelles et sociales de ce pays fascinant. Mon séjour à Yokohama m'a permis d’acquérir une compréhension nuancée des dynamiques interculturelles et de me confronter à des différences significatives qui ont élargi mon horizon intellectuel et personnel.</p>
+    <p>Les interactions quotidiennes et les observations faites tout au long de ce semestre ont mis en lumière l'importance de l'ouverture d'esprit et de l'adaptabilité dans un contexte international. J'ai pu apprécier des pratiques culturelles variées et des valeurs distinctes, ainsi que comprendre les subtilités qui façonnent les relations humaines au Japon.</p>
+    <p>En conclusion, mon année d’échange au Japon m’a permis de perfectionner mes compétences linguistiques tout en enrichissant mon parcours personnel. Je suis reconnaissante d'avoir eu la chance de découvrir la richesse culturelle de ce pays. Les souvenirs que j'ai créés à Yokohama et dans d'autres régions du Japon sont inestimables et resteront gravés dans ma mémoire. J'espère avoir l'occasion de retourner au Japon à l'avenir afin d'approfondir ma compréhension de sa culture et de sa société.</p>
+<br><br>
+</div>
+
+ 
+
+
+
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="harajuku.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Photo à l'argentique de la Takeshita Street</figcaption>
+			
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="kawaii.png" alt="tatoo interdit">
+			<figcaption><em>Uki Uki</em>, peinture à l'acrylique de 2012. Oeuvre de l'exposition "Cool Japan" présentée au Nationaal Museum van Wereldculturen, Pays-Bas</figcaption>
+			
+			<br><br><br><br><br><br><br><img src="crossing.jpg" alt="tatoo interdit">
+			<figcaption>Photo du panneau surplombant le gigantesque passage piéton de Shibuya</figcaption>
+			
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
