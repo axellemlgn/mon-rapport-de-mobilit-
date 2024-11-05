@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESIDENCE INTERNATIONALE DE TOKIWADAI</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour l'image à droite */
+        .image-container {
+            max-width: 32%; /* Augmenter la largeur maximale */
+            width: 100%; /* Image prend toute la largeur de son conteneur */
+            padding: 15px;
+            margin-left: 35px; /* Espace entre le texte et l'image */
+            margin-top: 75px; /* Décalage vers 
+			
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 100%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		<h2 class="section-title">1 - LA RESIDENCE INTERNATIONALE DE TOKIWADAI</h2>
+            <p>La résidence de Tokiwadai a été mon point d’ancrage pendant ces 6 mois au Japon et sûrement le lieu qui m’a le plus appris sur les habitudes et la culture du pays puisque je partageais mon unité avec deux Japonaises mais également une Chinoise, deux Coréennes, une Brésilienne et une Anglaise. Il m’est vite apparu que le Japon était une société très disciplinée et même si je le savais bien avant de venir, cela a tout de même été un choc. En effet, nos unités comportaient toutes le même mur couvert de listes de règles et panneaux nous indiquant tout ce qui nous était interdit, notamment l’interdiction de se réunir après vingt-deux heures, ou encore l’interdiction de faire entrer des garçons dans le bâtiment destiné aux filles. De plus, nos appartements étaient soumis à un contrôle constant de la part des membres du “management office” qui passaient régulièrement à l’improviste et sans s’annoncer afin de contrôler l’état des parties communes. Cette surveillance et cette soumission à un contrôle constant me mettaient mal à l’aise. Je l’ai trouvé très infantilisante et je l’ai perçue comme une intrusion dans mon intimité, ce qui au quotidien est assez oppressant. Néanmoins, cela a participé à mon dépaysement qui était l’une des choses que j’étais venue chercher au Japon.</p>
+		<br> <br> <p> Cette tradition de l’ordre est omniprésente et s’explique par le concept du <em>Tatemae</em> qui régit les interactions sociales japonaises. <em>Tatemae</em> (建前) peut se traduire par le terme de “façade” et désigne les attitudes et opinions que l’on doit adopter dans le cadre public, en société. Son contraire est le <em>Honne</em> (本音) qui est l’expression de son vrai “soi” que l’on dévoile seulement en famille ou entre ami, dans le cadre privé. Il est donc dans leur éducation d’éviter les confrontations et d'adopter une attitude consensuelle puisque cela prouve une certaine maîtrise de soi. Ainsi, ils cherchent toujours à ne pas vexer leurs interlocuteurs en utilisant des formulations indirectes ou en faisant des sous-entendus que je ne saisissais pas à chaque fois. Par exemple, lorsque des bars souhaitaient contrôler mon âge, ils me disaient être “des établissements destinés aux adultes”. Ce type de périphrase laissait suggérer qu’ils doutaient de ma majorité et souhaitaient voir ma carte d’identité, sans me le demander frontalement. Ce mode de communication requiert de lire entre les lignes, ce que je n’ai pas toujours réussi à faire. Dans la même mouvance, lorsque nos colocataires japonaises considéraient que nous faisions trop de bruit, elles ne nous le faisaient pas remarquer directement mais allaient plutôt le signaler au “management office” qui par la suite nous indiquait par mail qu’à une heure donnée nous avions été trop bruyants et nous sommait de ne pas recommencer. En repensant à mon séjour, je me rends compte que j’ai malheureusement dû froisser quelques Japonais (involontairement bien sûr) pour ne pas avoir utilisé ce <em>Tatemae</em> qui me paraît encore aujourd’hui peu naturel et très subtil, étant habituée à plus de franchise.</p>
+		<p> Cette pratique fait des Japonais des interlocuteurs très serviables et d’une grande patience. Par exemple, lorsque vous leur demandez votre direction, ils ne se contentent pas seulement de vous l’indiquer, mais ils vous amènent directement au magasin ou au métro que vous recherchez. Nous pourrions nous inspirer de certains de leur comportement comme simplement faire la queue pour entrer dans le bus. Une chose que je n'avais pas faite une seule fois en France et qui me manque aujourd’hui terriblement, tous les matins à l’arrêt de bus Notre Dame. Cette simple pratique me semble bien démontrer le sens du collectif des Japonais et montrer comment ils se perçoivent comme membre d’une société dont l’harmonie prime avant tout. </p>
+<p>Malgré cela, j’ai trouvé que le <em>Tatemae</em> avait un carcan oppressant qui poussait les Japonais à se conformer à ce que les autres attendent d’eux. Si les conventions deviennent une fin en soi alors l’image que nous donnons de nous compte plus que la réalité, et les problèmes de société sont dissimulés derrière une façade de normalité. Cela peut expliquer la répugnance des Japonais que j’ai rencontrés à parler politique. Venant d’une licence très politisée, c’était pour moi un sujet de conversation très commun, et porter un jugement sur des personnalités publiques est un acte banal. Néanmoins, il m’est apparu que c’est un sujet tabou que les Japonais préfèrent éviter pour ne pas se démarquer, ou voir y sont complètement indifférents. D’ailleurs, mon université avait une vie associative très riche qui contenait de nombreux clubs sportifs, intellectuels ou artistiques, mais aucuns n’étaient politiques et le taux d’abstention aux dernières élections législatives tournait autour de 45 %. Il y a bien sûr de nombreux autres facteurs qui expliquent ce chiffre (comme le fait qu’il n’y ait pas d’opposition durable au parti en place). Toutefois, je me demande si cet évitement de la critique directe et ce rejet de la différence ne met pas à mal la Société Civile, affaiblissant la capacité d’influence des citoyens sur les politiques publiques.</p>
+<p>Je pense néanmoins qu'il serait réducteur de considérer le <em>Tatemae</em> comme de l’hypocrisie. Ce n’est pas un masque permanent, mais un code social très sophistiqué qui facilite les relations sociales tout en préservant la sphère intime des individus.</p>
+
+        </div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="photogroupe.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Photo de groupe des membres de la résidence</figcaption>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="tatoo.jpg" alt="tatoo interdit">
+			<figcaption>Panneau : interdiction de montrer ses tatouages</figcaption>
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
