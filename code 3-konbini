@@ -1,0 +1,197 @@
+<<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONBINI</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+	
+		
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour l'image à droite */
+        .image-container {
+    max-width: 65%; /* Diminue la largeur maximale à 25% */
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    padding: 10px; /* Réduit légèrement le padding */
+    margin-left: 1px; /* Réduit l'espace entre le texte et l'image */
+    margin-top: 23px; /* Décalage réduit en haut */
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 100%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		 <h2 class="section-title">3 - Le KONBINI</h2>
+            <p>Les <em>konbinis</em> sont inséparables du mode de vie des Japonais et sont des symboles de l’efficacité du service nippon. Le terme de “konbini”, ou “conbini” est une apocope de l’anglais “convenience store”, ce sont les équivalents de nos épiceries de quartier dans lesquelles je me rendais plusieurs fois par semaines. Ces petits commerces de proximité ne ferment pas une seule minute dans l’année et vous pouvez tout y trouver, de la nourriture surgelée mais aussi quelques produits frais et des <em>bentô</em>, c'est-à-dire des repas déjà préparés qui sont peu cher et très prisés des étudiants. Ces magasins sont très populaires pour vendre à l’unité des collations typiques du pays comme des <em>onigiris</em>: des boulettes de riz enveloppées dans une algue de nori (je vous recommande ceux fourrés au thon et à la mayonnaise). Les <em>konbinis</em> mettent également en libre-service des micro-ondes et des bouilloires qui vous permettrons de faire des nouilles instantanées sur le pouce. Vous pouvez bien sûr y acheter des boissons, des jus, des alcools et du thé vert, si chers aux Japonais, qu’ils vendent déjà infusé et par gallon, soit des bouteilles de thé de quatre litres. Ces espaces comportent aussi des machines à café, une idée brillante qui me manque depuis mon retour. Mais un <em>konbini</em> ne se limite pas à l'alimentation, il propose des services annexes comme la vente de cigarettes, de magazines, de bouquets de fleurs, de produits d’hygiène et même de vêtements. Il est possible de s’y affranchir de ses colis et je m’y rendais régulièrement pour imprimer des documents et photos à un prix très avantageux. Par ailleurs, vous ne trouverez aucun distributeur de billets dans la rue, ce service étant presque uniquement réservé aux <em>konbinis</em>. Ainsi, leur succès réside dans le large panel de produits qu’ils proposent mais aussi sur leur omniprésence. En effet, ce phénomène apparaît au Japon à la fin des années soixante et l’archipel en compte aujourd’hui environ soixante mille, soit un <em>konbini</em> pour deux mille habitants ; mon université par exemple avait deux <em>konbinis</em> sur le campus en plus de trois autres situés sur les abords de l’établissement à moins de deux minutes de marche. 
+			</p>
+			<p>C’est principalement à cause de cette proximité que je m’y rendais très fréquemment pour acheter des produits surgelés ou des <em>bentôs</em>. De manière générale, il m’a semblé que les plats préparés étaient très populaires parmi les étudiants internationaux. En effet, faire des courses au Japon s’est avéré très long lorsqu’on ne parle pas le japonais puisque certains emballages sont très différents de ceux que nous connaissons. Il était par exemple possible de trouver du lait en canettes plutôt qu’en bouteilles ou en brique. En outre, le riz, lorsqu’il n’était pas vendu en format familial de dix kilos, était présenté dans des barquettes plastiques opaques très simples et sans illustrations, ne permettant pas aux étrangers désorientés de deviner de quoi il s'agissait. Les marques et les icônes y étaient également différentes de celles que nous rencontrons communément en Europe, ce qui m’obligeait à traduire la plupart des emballages avant de les acheter pour m’assurer qu’il s’agissait du bon produit, ce qui peut devenir très chronophage. L’attrait des <em>bentôs</em>, c’est surtout leur prix, entre trois cent cinquante et cinq cent cinquante yens en général. Ainsi, il était possible de manger pour environ trois euros cinquante un plat rassasiant, sûrement plein de conservateurs et d’additifs mais équilibré et, à mon sens, savoureux. 
+			</p>
+			<br><p>De manière générale, l'alimentation est significativement moins chère au Japon, excepté pour certains produits que nous connaissons bien, mais ne font pas partie de leurs habitudes alimentaires, comme la crème fraîche et le chocolat en plaquette. Plus étonnant, les légumes et les fruits y sont également très coûteux. En effet, dans le Grand Tokyo les fruits en particuliers sont vendus à prix d'or. Quatre euros pour une pomme, environ sept euros pour un lot de trois tomates et entre vingt et cinquante euros pour une mangue ; il m’a semblé m’être nourrie uniquement de bananes durant ces six mois car c’était le seul fruit vendu à un prix abordable. Quelques recherches m’ont montré qu’il est possible de trouver des fruits à des tarifs plus raisonnables dans les campagnes, mais ces produits-là, moins beaux, sont considérés comme de plus mauvaise qualité.
+			</p>
+			<p> Cela s’explique par plusieurs raisons, la première est la politique agraire japonaise. En effet, dans l’archipel nippon les surfaces agricoles sont rares, le climat y est très humide donc peu propice aux cultures maraîchères et à l'arboriculture fruitière. En outre, la main-d'œuvre y est qualifiée donc plus chère. Il m’a également été expliqué dans ma classe de “International Political Economy”, que je suivais à l’Université de Yokohama, que les denrées importées sont très coûteuses en raison de l’importance des taxes qui sont appliquées aux produits venant de l’étranger, afin de favoriser les producteurs locaux. Mais surtout, ce sont les protocoles phytosanitaires qui limitent le nombre de pays autorisés à exporter leurs fruits vers le Japon. En effet, à cause de ses îles relativement isolées, son agriculture est très vulnérable à l’introduction de nouveaux parasites et autres maladies qui pourraient avoir des effets dévastateurs sur les cultures locales. C’est par exemple le cas de l’importation de pommes, qui n’est autorisée qu’à quelques pays ayant des accords phytosanitaires très spécifiques avec le Japon. Les Etats-Unis et la Nouvelle-Zélande en sont les principaux exportateurs, mais cela n’a été possible qu’après la mise en place de procédures de désinfection stricte, comme la réfrigération à basse température pendant une période définie afin de tuer tous les potentiels parasites et maladies. Toutes ces barrières à l'entrée du marché rendent les fruits plus chers et en font des aliments précieux au Japon. 
+			</p>
+			<p> Une autre explication à ces tarifs exorbitants est d’ordre culturel. En effet, on ne croque pas dans une pomme en France comme on le ferait au Japon, car y manger un fruit tient du cérémonial. C’est un aliment précieux qui sert généralement de cadeau, un objet de respect avec une certaine aura ; apporter une corbeille de fruits à la personne qui reçoit est l’équivalent français d’offrir une composition florale. L’offre de fruit est formelle et témoigne d’un soin particulier dans le choix du cadeau, souvent soigneusement emballé. Ils sont considérés comme un symbole de pureté, de santé, de prospérité et sont souvent présentés en offrandes aux temples. Les clients japonais sont très exigeants car la beauté du fruit doit refléter l’excellence de son goût, et être donc d’une apparence parfaite, ce qui implique des règles de production strictes et une sélection drastique qui fait gonfler les prix. Dès lors, dans les grandes surfaces les fruits sont presque mis en scène : ils sont présentés dans de petites boîtes, blottis dans un écrin de frisette, lustré et disposé avec soin dans une vitrine. Même les pommes les plus bas de gamme vendues en <em>konbini</em> sont déjà soigneusement épluchées et savamment découpées. J’en ai fait l’expérience lors des vingt ans de mon amie et camarade de promotion, Amaya Goumy. Nous lui avons offert une simple tarte aux fruits comme gâteau d’anniversaire, qui valait un peu plus de soixante euros. En outre, certains fruits sont même considérés comme des objets de luxe, vendus dans des boutiques spécialisées et parfois vendus aux enchères ; d’autres sont mêmes produits à des fins décoratives, comme des pastèques carrés vendus deux cents dollars. 
+			</p>
+			<p> De plus, les grandes surfaces sont les endroits parfaits pour appréhender l’alimentation japonaise. Une très grande zone est dédiée au soja décliné sous toutes ses formes : en tofu, en miso (une pâte de sojas fermenté, très riche en protéines), en graine et bien sûr en sauce, vendu dans des bouteilles d’un litre. Le <em>dashi</em> (出汁) est également un aliment très prisé, bien que méconnu en France, ce type de bouillon à base de plantes séchés est utilisé dans l’élaboration de soupe, de nouilles et différentes sauces. En outre, la cuisine japonaise utilise beaucoup de produits marins consommés frais, tel que le thon ou le saumon, mais également des aliments séchés. C’est notamment le cas des algues, comme le <em>konbu</em>, utilisé dans la préparation du <em>dashi</em>, le <em>wakame</em> que j’apprécie beaucoup en salade ou, plus connu, le <em>nori</em> utilisé dans la confection de sushis. Dans les grandes surfaces vous retrouverez également de la bonite séchée, appelée <em>katsuobushi</em>. Ce petit poisson cousin du thon et du maquereau est vendu dans des sacs plastiques, parfois râpé en copeaux fins, parfois entiers. Encore plus étonnant, les Japonais sont friands de crabes séchés appelés <em>Tamagogani</em> (玉子カニ). Souvent assaisonnés de graines de sésames et d’une sauce soja, ce sont des crabes entiers, de petites tailles que vous mangez directement, comme vous le feriez pour du pop-corn. Enfin, je ne peux terminer ce passage sur les habitudes alimentaires du Japon sans vous parlez de celui qui était mon plus grand défi, du condiment le plus exécrable de tout l’archipel : le <em>nattō</em> (納豆). Le <em>nattō</em> est un aliment traditionnel de la cuisine japonaise à base de graines de soja fermentées, le plus souvent utilisé pour accompagner un riz nature au petit-déjeuner. Wikipédia nous explique que “son aspect gluant ainsi que son odeur fermentée-ammoniaquée peuvent le rendre assez repoussant pour les non habitués.” Je rajouterais que ce fléau gastronomique possède une odeur suffocante qui n’est qu’un avant-goût du calvaire qui suit : sa texture en bouche est si visqueuse que chaque manipulation devient un combat contre ses fils gluants qui s’étirent sans fin. Vos papilles seront vite assaillies par son goût terreux et amer, et tout ce chaos se retrouve dans son aspect visuel qui rend ce met pareil à une masse gélatineuse indéfinie. Néanmoins, dans toute sa splendeur répulsive, le <em>nattō</em> est apprécié pour ses bienfaits sur la santé puisqu’il est riche en protéines, en probiotiques, en fibre et mes colocataires s’en délectaient au petit-déjeuner, ce qui le rendait d’autant plus agressif pour moi.
+			</p>
+			<br><p> Les habitudes alimentaires japonaises furent un des grands chocs culturels de ce semestre et se sont révélées tout aussi surprenantes qu’amusantes. Mais la chose qui me marquait dans chaque <em>konbinis</em> ou grandes surfaces, même après avoir passé plusieurs mois dans le pays, c’est le suremballage des produits. J’ai par exemple acheté une sauce mayonnaise vendue dans un pot plastique, qui était lui-même emballée dans un sachet plastique et ce sachet plastique était protégé dans une petite boîte en carton… Cette surprotection de tous les produits alimentaires vient s’ajouter à l’habitude japonaise des portions individuelles. Les gâteaux secs par exemple, sont souvent emballés dans des sachets individuels et rassemblés dans une grande barquette plastique. C’est également le cas des fruits et légumes qui, comme évoqué plus haut, sont empaquetés à l’unité, protégés dans un filet de polyester à quoi s’ajoute une barquette et un film plastique. De plus, lors du passage en caisse, les produits de petites tailles, la viande et le poisson sont emballés une nouvelle fois par le caissier ou la caissière. Il m’est arrivé quelquefois de refuser poliment ce nouvel emballage, mais la démarche n’a rien de naturel. Derrière les caisses, sont prévus des tables afin que nous puissions ranger tous nos produits dans une nouvelle poche plastique mise en libre-service. Vous l’aurez compris, la vie japonaise n’est pas synonyme d’écologie, car même pour les biens de consommation courante, l’emballage, fut-il en plastique, est un gage de qualité de service et de propreté car le souci de l’hygiène est fondamental. Par ailleurs, les produits à usage unique sont partout. 
+			</p>
+			<p>Outre les <em>konbinis</em>, nombreux sont les restaurants qui utilisent des baguettes jetables et lorsqu’il pleut, des poches plastiques sont à dispositions dans les entrées des bâtiments pour que chaque visiteur puisse y glisser son parapluie afin de lui éviter de s'égoutter. Dès lors, je me suis sentie frustrée dans ma conscience écologique car le mode de vie que j’ai adopté au Japon rentrait complètement en contradiction avec mon engagement pour l’environnement. Une forme de culpabilité s’est quelque peu installée car je participais à des pratiques que je désapprouve. Cela m’a fait réaliser à quel point il est difficile au quotidien de se refuser aux pratiques d’un groupe, quand bien même nous sommes convaincus de leur effet néfaste. Tout au Japon pousse à la consommation, au travers par exemple des distributeurs automatiques de boissons (<em>jidohanbaiki</em>, 自動販売機) que vous pouvez trouver dans la rue, dans les gares, sur tous les sites visités, aussi reclus soient-ils, et même dans les temples. L’ouverture en continu des konbinis le montre bien, la consommation intérieure du pays est très soutenue et encouragée, le pays lui doit d’ailleurs une partie de sa réussite économique. Toutefois, les Japonais adoptent certaines habitudes avec une grande rigueur afin d’assurer la propreté de leur environnement, comme ne jamais jeter ses déchets sur la voie publique, pas même ses mégots de cigarettes, ce qui relève du miracle car les poubelles publiques sont extrêmement rares et pourtant, les rues sont très propres. Ils pratiquent également le tri sélectif avec minutie, mais seulement vingt pour cent de leurs déchets plastiques sont recyclés. Ce chiffre est d’autant plus impressionnant que les emballages plastiques représentent soixante-huit pourcent des déchets plastiques générés au Japon, et que le Japon est le deuxième producteur de déchets plastiques par habitant derrière les Etats Unis. 
+			</p>
+			<br><p>Ce mépris de l’écologie m’a d’autant plus surprise que, contrairement à son camarade américain, je pensais le Japon comme une société en harmonie avec la nature qui lui accordait un grand respect, et dont la tradition prônait un mode de vie simple et humble, loin des extravagances de l’<em>American way of life</em>. En effet, les Japonais ont un lien très paradoxal avec leur nature qu’ils me semblent respecter au travers de leurs croyances et traditions, et non par une réelle conscience écologique. La religion shintô pratiquée par soixante-dix pour cent des Japonais est un facteur essentiel de la relation du pays avec sa nature. Selon cette pensée animiste, chaque élément naturel, chaque plante, chaque pierre, chaque rivière habite un esprit divin appelé <em>kami</em>, et est en fait un espace sacré. De nombreux temples shintôs sont d’ailleurs construits en pleine nature afin de souligner cette harmonie et cette connexion profonde avec la spiritualité et l’environnement. Cette religion encourage à éviter les comportements qui pourraient nuire aux <em>kamis</em> et troubler cette connexion, loin de la vision utilitariste qui considère la nature comme une ressource à exploiter. Même si je savais le Japon sujet à la consommation de masse, j’imaginais cette société plus encline à la protection et la conservation de sa nature. Ce pays m’a donné à contempler des paysages absolument sublimes, que les locaux mettaient un point d’honneur à protéger des dommages causés directement par les visiteurs, comme l’abandon de déchets sur le site. Mais le quotidien aseptisé et énergivore des Japonais me parait les amener à négliger des menaces plus insidieuses comme les émissions de CO2 causées par leurs modes de vie, laissant ainsi ces lieux vulnérables à l'exploitation environnementale à plus grande échelle
+			</p>
+			<p>La vision que je me faisais du lien entre les Japonais avec leur environnement avait été en partie construite autour des films de Hayao Miyazaki qui subliment cette nature. Dans les films de son studio, le studio Ghibli, la nature est représentée comme puissante, vivante et mystique. Plus qu’un simple décor, elle est un personnage à part entière de l’histoire et incarne un récit. <em>Princesse Mononoké</em>, produit en 2000 illustre cette idée au travers d’une créature fantastique, appelée l’esprit de la forêt, qui lutte contre la destruction industrielle et symbolise le conflit entre la préservation de l’environnement et le développement humain. Je trouve ce dessin animé (qui est par ailleurs mon préféré de ces studios) visuellement magnifique de par ses détails et ses couleurs subliment à merveilles les paysages. L’idée clé des films de Hayao Miyazaki me paraît être la recherche d’un équilibre entre l’humain et la nature. Je ne pense pas qu’il s’agisse d’une vision utopiste du réalisateur où l’Homme s'effacerait complètement, mais d’une cohabitation harmonieuse qui exclurait toute domination et exploitation de l’humain.
+			</p>
+			<br><p>Dès lors, il m'est apparu qu'il existe une contradiction entre ces récits populaires imprégnés de respect spirituel pour la nature, et la réalité d'une société de consommation moderne. Ainsi, bien que certains Japonais puissent témoigner d'un profond respect pour la nature en raison de leurs traditions et croyances, cela ne se traduit pas dans leurs actions dont certaines sont à mes yeux irresponsables, écologiquement parlant.
+			</p>
+
+        </div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="familymart2.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Photo du <em>konbini</em> situé à côté de ma résidence</figcaption>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="bento.jpg" alt="tatoo interdit">
+			<figcaption>Photo du stand de <em>bentô</em> situé à côté de ma résidence</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="pasteque.jpg" alt="tatoo interdit">
+			<figcaption>Pastèques carrées japonaises, photo de BFMTV</figcaption>
+			<!-- Nouvelle vidéo -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><video controls width="100%">
+            <source src="crabes.mp4" type="video/mp4">
+            <!-- Texte alternatif si le navigateur ne supporte pas la vidéo -->
+            Votre navigateur ne prend pas en charge les vidéos HTML5.
+        </video>
+        <figcaption>Vidéo d'une dégustation de <em>Tamagogani</em> entre amis</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="distributeur.jpg" alt="tatoo interdit">
+			<figcaption>Photo d'un <em> jidohanbaiki</em></figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="mononoke.jpg" alt="tatoo interdit">
+			<figcaption>Affiche du film <em> Princesse Mononoké</em> réalisé par Myazaki</figcaption>
+			
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
