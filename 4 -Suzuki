@@ -1,0 +1,180 @@
+<<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUZUKI</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+	
+		
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour l'image à droite */
+        .image-container {
+    max-width: 65%; /* Diminue la largeur maximale à 25% */
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    padding: 10px; /* Réduit légèrement le padding */
+    margin-left: 1px; /* Réduit l'espace entre le texte et l'image */
+    margin-top: 23px; /* Décalage réduit en haut */
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 100%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		 <h2 class="section-title">5 - SUZUKI</h2>
+            <p>Suzuki est un magasin de caméra argentique qui vend également des pellicules et autres accessoires. Je m’y rendais régulièrement pour faire développer mes propres photos argentiques. En effet, en tant qu'amatrice de photographie, le Japon était le terrain de jeu parfait en raison de la diversité et de la richesse de ses paysages. 
+			</p>
+			<p>J’ai d’ailleurs suivi un cours de photographie à l’université, dispensé par un professeur américain. Chaque semaine, nous devions présenter à l’ensemble de la classe cinq photos sur un thème donné (tels que “l’illusion” ou “noir et blanc” par exemple) et l’examen final consistait en une exposition de nos meilleurs clichés de ce semestre. J’ai trouvé cette classe enrichissante et amusante, avec une ambiance très bon enfant où chacun réagissait aux photographies que les autres présentaient. Ce fut très enrichissant de découvrir comment, avec nos bagages culturels très divers, nous avons tous interprété les thèmes imposés différemment. Néanmoins, en prenant cette classe j’espérais en apprendre plus sur les aspects techniques de la photographie et cela manquait à ce cours où le professeur ne faisait pas de théorie, mais servait plutôt de médiateur à un débat animé par les élèves eux-mêmes. Dès lors, je n'ai pas le sentiment d’avoir véritablement progressé dans ce domaine. Ce fut la première fois que je suivais un cours enseigné d’une manière aussi intéractive qui, je trouve, permet aux élèves de prendre plus confiance en eux. Nous étions les véritables “animateurs” de cette classe et donc moins passifs que si nous nous contentions de répondre aux questions du professeur.
+			</p>
+			<br><p>Comme je vous l’ai indiqué précédemment, beaucoup de mes photos ont été prises à l’argentique. J’ai en effet retrouvé juste avant mon départ pour le Japon le vieil appareil de mon père que j’ai ressuscité durant cette mobilité. J’apprécie bien sûr la beauté et la poésie de l’objet, mais aussi le grain si particulier des pellicules et le rythme plus ralenti de la photographie argentique. Par ailleurs, le Japon a une longue tradition d’innovation dans le domaine de la photo. Le pays abrite les géants que sont Canon, Nikon, Sony, Fujifilm, Olympus, Panasonic et en 2022, 95 % des appareils photo vendus dans le monde étaient japonais (source Nikkei techno system research). Le prix des pellicules à l’achat et au développement y est presque moitié moins cher qu’en France, ce qui n’est pas un détail dans le budget d’une étudiante à l’étranger. En outre, le marché de l’occasion du matériel photo est aussi très dynamique, puisque le pays comprend un grand marché domestique de passionnés de cet art. En effet, dans la seule gare de Yokohama, j’ai pu compter pas moins de deux magasins de caméras argentiques d’occasion. 
+			</p>
+			<br><p>Avec sa flore haute en couleur et son art de vivre unique, les sites japonais passent à mes yeux comme éminemment photogéniques. Ce qui m’a le plus marqué, c’est la variété des sites naturelles, des grands lacs de la région de Tohoku aux plages de sable blanc d’Okinawa, en passant par l’architecture traditionnelle de la ville de Kyoto, sans oublier le très célèbre volcan Fuji. C’est tout d’abord pour cette raison que la photo a pris une grande place dans ma mobilité,  mais également parce qu’elle me permettait de garder une trace indélébile de mes expériences nippones, malgré l’érosion naturelle de la mémoire. J’ai senti que le semestre passait à une vitesse fulgurante, et puisque je me rendais sur des lieux sublimes par lesquels je ne repasserais sûrement jamais, j’ai ressenti le besoin de photographier chaque instant. J’ai pensé que cela me permettrait de garder un lien tangible avec ces souvenirs, même après avoir quitté le pays, car ces moments semblaient trop précieux pour risquer qu’ils s’évanouissent. Dès lors, j'ai fait beaucoup de clichés, mais également des carnets de voyage pour figer mon ressenti par l’écriture afin d'avoir des objets de mémoire qui vont au-delà de la représentation visuelle. Néanmoins, je ne pense pas que les photos soient de simples représentations, mais qu’elles me permettent de me repositionner par rapport à mon histoire en créant un espace de réflexion. Plus qu’un simple témoin visuel de ma mobilité, c’est pour moi une manière de faire surgir des émotions enfouies et de reconfigurer un souvenir devenant ainsi un outil de transformation personnelle. Je pense qu’à travers nos photos nous ne cherchons pas simplement à documenter le passé, mais également à le revivre, le réinterpréter et se positionner en tant qu’acteur de notre propre histoire. 
+			</p>
+			<p>Dès lors, j’ai souhaité capturer ces moments avec mes amis au Japon et je me suis notamment amusée à prendre des portraits de mes proches rencontrés là-bas, quelque chose que je regrette de ne pas avoir fait durant ma mobilité en Espagne.  J’ai souhaité immortaliser les visages de ceux avec qui j’ai partagé cette aventure car nous étions seulement une quarantaine d’étudiants étrangers anglophones à la YNU et vivions tous dans la même résidence. Nous avons donc rapidement appris à bien nous connaître et je ne m’attendais pas à ce qu’une telle solidarité s’installe et encore moins aussi rapidement. Nous venions de tous les continents et de tous les horizons d’études, ce qui a rendu cette expérience au Japon d’autant plus riche. Nous avons découvert ce pays ensemble au travers de nos voyages, sorties et expériences communes. Notre entraide pour surmonter la barrière de la langue, faire face à la rigueur de l'administration japonaise et la solitude a été indispensable. Si je n'ai pas eu de baisse de moral ou le mal du pays, c'est sans doute parce que je me suis sentie appartenir à un groupe malgré le fait que j'évoluais dans une société qui m’était étrangère. Je pense que prendre des portraits de mes amis nous permettait également de nous préparer émotionnellement à l’absence, comme un geste d'acceptation de la distance, mais aussi une tentative de maintenir une présence symbolique.
+			</p>
+			<br><p>Ainsi, j’ai pu prendre des portraits et beaucoup de photos de paysages ; toutefois j’aurais aimé pouvoir davantage capturer le mode de vie des Japonais notamment à travers la photographie de rue. Cette pratique demeure très sensible au Japon qui est sujet au tourisme de masse et commence à prendre des mesures concrètes à l’encontre des gaijin. Ce terme de gaijin est une manière légèrement péjorative de qualifier une personne de couleur blanche au Japon, entendez par là les touristes ayant des comportements irrespectueux. En réaction à ce phénomène, les autorités ont désormais interdit certains lieux aux touristes. C’est le cas par exemple, de quelques rues du quartier de Gion, connues pour ses geishas vers qui les visiteurs manquaient trop souvent de respect. Ce quartier se situe dans la mythique ville de Kyoto qui, pour y être restée quelques jours, est un lieu qui apparaîtra comme splendide à quiconque aime l’architecture japonaise. J’ai trouvé cette ville sublime et très romantique, mais il était dommage de voir sur presque toutes les maisons des panneaux symbolisant l’interdiction de prendre des photos, cela gâche quelque peu l’authenticité du lieu. Certaines municipalités vont même plus loin, comme celle de Fujikawaguchiko qui a ce printemps dressé une palissade pour dissimuler une vue sur le mont Fuji et ainsi faire cesser l’afflux de touristes. Cette mesure a fait beaucoup de bruit au Japon et m'a quelque peu déçue, car j’avais moi-même comme projet de m’y rendre. Étant fascinée par les aspects visuels et esthétiques de la culture japonaise, je peux comprendre (bien que je la condamne) cette curiosité qui amène certains à prendre des photos qui peuvent avoir un impact sur les populations locales. Il n’était pas rare de voir des touristes prendre en photo des cérémonies religieuses bien que cela soit explicitement interdit ; ou encore de prendre des clichés de Japonais en kimonos sans leur en demander la permission, pensant sûrement qu’il s’agissait de scènes “exotiques”. Cela me mettait d’autant plus mal à l’aise que ces Japonais me paraissaient réduits en objets d’admiration à collectionner pour un cabinet de curiosité. Ce sentiment est devenu très concret  lorsque j’ai voyagé dans le sud de l’Asie avec quelques amis, car nous fûmes à notre tour l’objet de nombreuses photos à notre insu et cela nous était fortement désagréable.  
+			</p>
+
+
+        </div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="geisha.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Exemple d'une photo à l'argentique que j'ai présenté lors de l'évaluation de mon cours de photographie.</figcaption>
+			
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="maribel.jpg" alt="tatoo interdit">
+			<br><img src="noemi.jpg" alt="tatoo interdit">
+			<figcaption>Portraits de mes amies Maribel (Mexicaine) et Noémi (Espagnole) à l'argentique.</figcaption>
+			
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="kyoto.jpg" alt="tatoo interdit">
+			<figcaption>Photo du centre ville de Kyoto</figcaption>
+			
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
