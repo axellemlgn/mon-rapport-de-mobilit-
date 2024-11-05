@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAPPORT DE MOBILITÉ</title>
+    <style>
+        /* Mise en page globale */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+        }
+
+        /* Conteneur de l'en-tête */
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            gap: 12rem;
+        }
+
+        /* Titre aligné à gauche */
+        .header-title {
+            background-color: white;
+            color: #3a7ca5;
+            padding: 2rem 4rem;
+            border-radius: 20px;
+            font-size: 3.5vw;
+            font-weight: bold;
+            max-width: 35%;
+            margin-left: -17%;
+        }
+        
+        /* Sous-texte plus petit et en gris */
+        .subtitle {
+            font-size: 1.5vw;
+            color: #7d7d7d;
+            font-weight: normal;
+            margin-top: 0.5rem;
+        }
+
+        /* Photo ajoutée à droite du titre */
+        .header-photo {
+            max-width: 47%;
+            height: auto;
+            margin-right: -15%;
+        }
+
+        /* Conteneur centré pour l'image citation */
+        .header-image {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        /* Image citation sous l'en-tête */
+        .header-image img {
+            max-width: 90%;
+            height: auto;
+        }
+
+        /* Conteneur principal */
+        .container {
+            margin: 5vh auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+        }
+
+        .carte {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .carte img {
+            width: 100%;
+            height: auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #3a7ca5;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header-title {
+                font-size: 2.5vw;
+                max-width: 80%;
+            }
+
+            .header-photo {
+                max-width: 50%;
+            }
+
+            .header-image img {
+                max-width: 80%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-title {
+                font-size: 8vw;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- En-tête avec le titre et la photo -->
+<div class="header-container">
+    <div class="header-title">
+        MON RAPPORT DE MOBILITÉ<br>
+        À L'UNIVERSITÉ<br>
+        NATIONALE DE YOKOHAMA
+         <div class="subtitle">
+            <br>par Axelle Maligne L3 LSPO - Université de Poitiers
+        </div>
+    </div>
+    
+    <!-- Photo ajoutée à droite du titre -->
+    <img src="logofinal.png" alt="Photo de l'auteur" class="header-photo">
+</div>
+
+<!-- Image citation centrée sous le titre et la photo -->
+<div class="header-image">
+    <br><img src="citationdesign.png" alt="Photo de Yokohama">
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superposer du Texte sur une Vidéo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-container {
+            position: relative; /* Position relative pour le conteneur */
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .full-width-video {
+            width: 100%;
+            height: auto; /* Hauteur automatique pour garder les proportions */
+            display: block; /* Évite les espaces indésirables sous la vidéo */
+        }
+
+        /* Styles pour la zone de texte superposée */
+        .video-text-overlay {
+            position: absolute; /* Positionnement absolu par rapport au conteneur parent */
+            top: 50%; /* Centré verticalement */
+            right: 5%; /* Aligné au bord droit */
+			left: 60%;
+            transform: translateY(-50%); /* Ajustement pour centrer verticalement */
+            background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour contraste */
+            color: white;
+            padding: 30px; /* Ajuste le padding selon vos besoins */
+            text-align: justify; /* Texte justifié */
+            font-size: 1.1vw; /* Taille de police responsive (en fonction de la largeur de l'écran) */
+            border-radius: 10px; /* Coins arrondis */
+            max-width: 80%; /* Largeur maximale pour mieux encadrer le texte */
+            line-height: 1.5; /* Espacement entre les lignes pour améliorer la lisibilité */
+        }
+
+        .video-text-overlay p {
+            margin: 0; /* Enlève les marges par défaut */
+        }
+
+        /* Styles pour la carte */
+        .carte-container {
+            position: relative; /* Position relative pour le conteneur */
+            text-align: center; /* Centrer le conteneur */
+            margin-top: 20px; /* Espace au-dessus de la carte */
+        }
+        
+        .carte-container img {
+            width: 100%; /* Largeur responsive */
+            height: auto; /* Hauteur auto pour garder les proportions */
+            max-width: 1200px; /* Limite la largeur de l'image */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style pour le lien */
+        .link {
+            position: absolute; /* Position absolue pour superposer le lien */
+            left: 27%; /* Position horizontale en pourcentage */
+            top: 300%; /* Position verticale en pourcentage */
+            transform: translateY(-50%); /* Centre verticalement le lien */
+            background-color: white; /* Couleur de fond blanche */
+            color: black; /* Couleur du texte en noir */
+            padding: 0.5rem 1rem; /* Ajoute de l'espace autour du texte */
+            border: 1px solid #ccc; /* Bordure grise claire */
+            border-radius: 5px; /* Coins arrondis */
+            text-decoration: none; /* Pas de soulignement */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ombre légère */
+            display: inline-block; /* Permet d'ajouter padding et border */
+        }
+
+        .link:hover {
+            background-color: #f0f0f0; /* Couleur de fond au survol */
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-container">
+    <!-- Vidéo en boucle prenant toute la largeur de la page -->
+    <video autoplay loop muted playsinline class="full-width-video">
+        <br><br><source src="vidéo.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéo.
+    </video>
+
+    <!-- Zone de texte superposée sur la vidéo -->
+    <div class="video-text-overlay">
+        <p>Au cours de l’année universitaire passée, j’ai eu la chance de vivre une expérience unique en passant mes deux semestres d’échange dans deux pays aussi fascinants que différents. Mon premier semestre s’est déroulé en Espagne, à l’université d’Oviedo, puis, j’ai poursuivi mon parcours au Japon, dans la ville de Yokohama, de début avril à fin août.</p>
+        <p><br>Yokohama, la deuxième plus grande ville du Japon, m’a offert une immersion inoubliable dans un quotidien vibrant de découvertes, entre modernité et tradition. Située à une demi-heure en métro de Tokyo, je profitais souvent de ma proximité avec cette mégapole pour explorer les quartiers les plus populaires, me divertir et m’imprégner de la culture urbaine nippone.</p>
+        <p><br>Ce rapport a pour objectif de partager mon expérience académique, les différences culturelles marquantes que j’ai expérimentées au Japon et les souvenirs qui ont fait de cette mobilité un moment marquant de mon parcours. Pour cela, je vous propose une carte intéractive ci-dessous, qui vous invite à explorer les lieux emblématiques de mon semestre. En cliquant sur chacun des six points numérotés, vous accéderez à une présentation détaillée de chaque lieu, avec des explications qui reflètent leur importance dans mon quotidien et les réflexions qu’ils m’ont provoquées. À travers ce récit, j’espère vous plonger dans les aspects uniques de la vie au Japon et susciter, qui sait, l’envie d’explorer à votre tour ces horizons lointains.</p>
+    </div>
+</div>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Interactive Yokohama-Tokyo</title>
+    <style>
+        .carte-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .carte-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .link {
+            position: absolute;
+            background-color: white;
+            color: black;
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        .link:hover {
+            background-color: #f0f0f0;
+        }
+        /* Position du premier lien */
+        .link-1 {
+            left: 25%;
+            top: 59%;
+            transform: translate(-50%, -50%);
+        }
+        /* Position du deuxième lien */
+        .link-2 {
+            left: 28%;
+            top: 67%;
+            transform: translate(-50%, -50%);
+		
+		}
+        /* Position du troisième lien */
+        .link-3 {
+            left: 27%;
+            top: 54%;
+            transform: translate(-50%, -50%);
+		
+		}
+        /* Position du quatrième lien */
+        .link-4 {
+            left: 36%;
+            top: 35%;
+            transform: translate(-50%, -50%);
+		
+		}
+        /* Position du cinquième lien */
+        .link-5 {
+            left: 47%;
+            top: 51%;
+            transform: translate(-50%, -50%);
+		
+		}
+        /* Position du sixième lien */
+        .link-6 {
+            left: 49%;
+            top: 23%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carte-container">
+        <br><br><br><img src="cartefinale.PNG" alt="Carte de Yokohama et Tokyo">
+        <a href="residence.html" class="link link-1">1 - La résidence internationale de Tokiwadai</a>
+        <a href="studentcenter.html" class="link link-2">2 - International Student Center</a>
+		<a href="konbini.html" class="link link-3">3 - Konbini</a>
+		<a href="shinjuku.html" class="link link-4">4 - Station de métro de Shinjuku</a>
+		<a href="suzuki.html" class="link link-5">5 - Suzuki</a>
+		<a href="harajuku.html" class="link link-6">6 - Harajuku</a>
+    </div>
+<style>
+/* Footer styles */
+        footer {
+            width: 100%; /* Prend toute la largeur de la page */
+            background-color: #3a7ca; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            text-align: center; /* Centrage du texte */
+            padding: 20px 0; /* Espacement vertical */
+            position: relative; /* Positionnement */
+            bottom: 0; /* Aligne le footer en bas si nécessaire */
+            left: 0; /* Positionne le footer à gauche */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Votre contenu ici -->
+
+    <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
