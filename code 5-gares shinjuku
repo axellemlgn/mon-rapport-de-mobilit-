@@ -1,0 +1,195 @@
+<<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METRO DE SHINJUKU</title>
+    <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+	
+		
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour l'image à droite */
+        .image-container {
+    max-width: 65%; /* Diminue la largeur maximale à 25% */
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    padding: 10px; /* Réduit légèrement le padding */
+    margin-left: 1px; /* Réduit l'espace entre le texte et l'image */
+    margin-top: 23px; /* Décalage réduit en haut */
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 100%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		 <h2 class="section-title">4 - La station de métro de Shinjuku</h2>
+            <p>La station de Shinjuku est, à mon sens, une représentation concrète de l’efficacité nipponne. Considérée comme le centre névralgique des transports de la capitale, et le cœur du Tokyo moderne, elle est située dans le quartier de Shinjuku, l’un des vingt trois arrondissements de la ville. Shinjuku est devenu emblématique dans la culture populaire grâce à ses nombreux commerces et lieux de divertissements. Si ce quartier est un incontournable pour les touristes, il abrite la station de métro la plus fréquentée au monde, avec deux millions d'usagers par jour. Ce chiffre est trois fois plus élevé que celui de la station parisienne de Châtelet-Les-Halles, la plus empruntée de France. Mais sa fréquentation quotidienne est également trente six fois supérieure à celle des services de Vitalis, par les quarante communes du Grand Poitiers (selon mes calculs basés sur les chiffres du quotidien <em>La Nouvelle République</em>). Ainsi, la première fois que je m’y suis rendue, je fus très contente d’être accompagnée d’amis qui connaissaient déjà bien les lieux, car avec ses cinquante-et-un quais et ses deux cents sorties, cette station est un véritable casse-tête. Le flot incessant d'usagers fait de la station une véritable fourmilière, et illustre parfaitement l'immensité vertigineuse des infrastructures des grandes villes japonaises. Je trouvais l’endroit plutôt effrayant, pourtant, il n'était pas rare d’y voir des enfants non accompagnés la traversant, et n’être nullement inquiétés par le tumulte les entourant. En effet, le sentiment de sécurité au Japon est tel que les enfants prennent quotidiennement les transports en communs seuls pour se rendre à l’école. Par ailleurs, les stations japonaises sont également des lieux illustrant un des paradoxes du pays : celui de l’évolution technologique. Car, si la station de métro principale dans le quartier d’Asakusa possède un robot afin de converser en anglais avec les touristes en détresse, l’achat de tickets de métro doit-être effectué en espèces. En effet, au Japon, l’argent liquide est roi, le cash s’impose comme le premier moyen de paiement sur l’archipel. Outre le métro, certains magasins de la capitale ne possèdent même pas de lecteurs de carte bancaire, et je réglais d’ailleurs mon loyer en espèces. Dès lors, au début de mon séjour, il était très perturbant pour moi de me promener en ayant une importante somme de liquide sur moi, une situation à laquelle je n'étais pas du tout habituée.
+			</p>
+			<br><p>De plus, la station de Shinjuku, comme c’est très souvent le cas au Japon, fait également usage de gare, combinant métros et trains dans un même lieu. Elle est un conglomérat des lignes gérées par sept compagnies distinctes, reliées par une myriade de passages et de tunnels. Dès lors, vous pouvez vous y rendre pour prendre votre métro, votre Shinkansen (l’équivalent japonais de notre Train à Grande Vitesse), votre bus mais aussi y faire vos courses. En effet, au Japon, les stations de métros abritent de nombreux commerces et lieux de restauration.
+			Celle de Shinjuku est une nouvelle fois à part, car elle comporte trois centres commerciaux en son sein, les complexes de <em>Lumine</em>, de l’<em>Odakyu</em> et de <em>Keio</em>.
+			Ces centres commerciaux si particuliers sont nommés <em>ekinaka</em>, <em>naka</em> signifiant littéralement « à l’intérieur », et <em>eki</em> « station ». Avant les années deux-milles, les commerces implantés dans des stations se limitaient à des petits kiosques et des stands de ventes de bentô. Mais, société de consommation oblige, des sociétés ferroviaires, et notamment celle de la JR East, ont étoffé leur offre en incluant de nouvelles boutiques comme des librairies, des supermarchés et même des salons de coiffure ou encore des spas. De plus, les passagers ont la possibilité de payer avec la même carte à puce qu’ils utilisent pour prendre leur train. C’est un peu comme si vous pouviez acheter votre baguette avec votre carte de bus Modalis. Outre la station de Shinjuku, l’une des plus grandes ekina du Japon est celle de la gare centrale de Tokyo. Celle-ci comporte une galerie dédiée à la gastronomie disposant de soixante restaurants et boutiques.
+			</p>
+			<br><p>J’y ai d'ailleurs retrouvé un nom familier. Connaissez-vous la ville de Pompadour ? Si cela ne vous dit rien, alors peut-être y a-t-il une fraction de la géographie française que les Nippons connaissent mieux que vous. C’est une petite commune de Corrèze de mille cent treize habitants, connue pour son activité équestre et son château. Il s’avère que ma famille est originaire de ce petit bout de France, et c’est d’ailleurs de là que je vous écrit ces mots. Dès lors, c’est avec une immense fierté que j’ai appris qu’une marque de pâtisserie japonaise d’envergure nationale, rayonnait sous le beau nom de <em>Pompadour</em>. Dans chacune des boutiques, trône un portrait de la Marquise de Pompadoure, une favorite du roi Louis XV dont les habitants de la commune sont très fiers. J’ai retrouvé ces magasins dans plusieurs quartiers de Tokyo et de Yokohama, mais également dans d’autres villes du pays, comme Osaka ou Naha. De plus, j’ai trouvé honorant de voir le nom de ma commune s’affichait en gros caractères dans le stade de Yokohama, à l’occasion d’un match de baseball où je me rendais, et dont la marque était le sponsor. Si je me montre très orgueilleuse de la renommée internationale de mon village, je ne vous recommande pas les produits de la compagnie Pompadour, qui sont, à mon avis, particulièrement exécrables. De manière générale, les japonais restent assez fascinés par la culture française et vous trouverez facilement des boutiques vendant des produits de l’hexagone, mais ces derniers sont généralement hors de prix. Il n’est d’ailleurs pas rare de voir des boutiques avec des noms français, même si les biens vendus n’ont aucun lien avec notre pays. Il me semble que, dans ces cas, la langue française est utilisée comme un ornement linguistique pour donner une image romantique et sophistiquée au lieu, plutôt que pour refléter fidèlement l’origine des produits.
+			</p>
+			<br><p>Outre les pâtisseries et autres boutiques, vous trouverez toujours dans les gares, des restaurants. En effet, ces derniers sont généralement situés dans de plus grandes structures comme des centre commerciaux ou des buildings, plutôt que dans la rue, ce dont nous avons l’habitude en Europe. La culture de la terrasse est inexistante au Japon de part l’approche japonaise au temps, qui est profondément ancrée dans les valeurs de productivité et d'efficacité. Contrairement à la France, où prendre un verre en terrasse ou prolonger un repas fait partie de l'art de vivre et de la convivialité, les Japonais privilégient un service rapide et pratique, adapté à un rythme de vie souvent intense. Ici, on vient au restaurant principalement pour satisfaire un besoin immédiat – se nourrir – plutôt que pour partager un moment social. Dans de nombreux restaurants, les clients mangent rapidement, seuls ou à plusieurs, mais sans s’attarder. Ce phénomène est accentué par la disposition des lieux, où les tables individuelles sont fréquentes, puisque aller dîner seul est tout à fait commun et socialement accepté. Dès lors, le temps passé au restaurant est principalement fonctionnel, axé sur le besoin de se restaurer efficacement, avant de retourner à d'autres obligations. Cette attitude s'explique en grande partie par la culture du travail au Japon, marquée par de longues journées et une forte demande de productivité. En conséquence, la plupart de ces lieux sont des restaurants à commandes numériques. C’est à dire que ce n’est pas le serveur qui vient prendre votre commande, car vous passez celle-ci via une tablette déjà à votre disposition sur la table. Si ce système permet au restaurant de traiter les choix des clients plus rapidement, il m’était également bénéfique en ce qu’il m’évitait d’avoir à me débattre avec mon japonais auprès du serveur. De plus, certaines enseignes se sont presque complètement séparées de leur personnel en salle en automatisant, non seulement la prise de commande, mais également le service à table. Dans des lieux de cette nature, les plats sont apportés via un tapis roulant qui arrête votre commande au niveau de votre table, il ne vous reste plus qu’à la saisir. 
+			</p>
+			<br><p>De manière générale, durant ce semestre je me suis rendue au restaurant à une fréquence bien plus soutenue que ce dont j’ai l’habitude en France. Tout d’abord, parce que les restaurants japonais sont largement plus abordables qu’en métropole. Il était en effet possible de savourer un grand bol de ramen, comprenant de la viande, pour environ cinq euros. Ensuite, parce que je souhaitais goûter à toute la diversité que la gastronomie japonaise a à offrir. Si je m’attendais à un régime très sain, je fus très surprise de l’importance qu'occupe la friture dans les plats japonais. Cette technique de cuisine est le <em>tempura</em> (天ぷら). Cela consiste en une pâte à frire à base de farine et d’oeuf dans laquelle vous pouvez à peu près tout tremper : vous trouverez au Japon de la <em>tempura</em> de poissons à chaires blanche (comme le cabillaud) de fruits de mer (comme la crevette) mais surtout des tempuras de légumes. Ces beignets sont présents dans absolument tous les plats, y compris dans les sushis ( les <em>sushis-tempura</em> étant à mon avis absolument délicieux). Par ailleurs, la cuisine japonaise, influencée par l’abondance des produits de la mer due à la nature insulaire du pays, m’a également surprise par l'omniprésence de la viande. Si cette dernière a été fortement restreinte en raison de l’influence du bouddhisme, elle s'est démocratisée lors de l’ouverture du pays sur l’internationale et de l’accroissement de la prospérité économique. Certains de mes plus proches amis étant végétariens, ce fut une bataille quotidienne que de trouver des restaurants proposant des plats sans viandes et sans poissons. 
+			</p>
+			<br><p>Vous l'aurez compris, les gares sont bien plus que de simples lieux de passage. Je leur dédie un chapitre entier car ce sont de véritables lieux de vie, au cœur des grandes villes japonaises. Ainsi, je me rendais très régulièrement dans celle de Yokohama pour me restaurer, faire des achats, et même me faire soigner en urgence. En effet, durant mon séjour, j’ai dû être admise dans une clinique japonaise à l’occasion d’une blessure au pied (qui était heureusement sans conséquences graves), et bien sûr cette clinique-ci se situait dans une aile de la gare centrale de Yokohama. Je m’y suis rendue accompagnée d’une amie sur les conseils du service de santé de mon université. Si cette clinique a bien pu me soigner, je me suis une nouvelle fois heurtée à la rigueur de l'administration japonaise. En effet, le Japon a un système de santé plus proche de celui des Etats-Unis que du nôtre ; donc la première chose dont ils s’assurent lorsque vous entrez, c’est la manière dont vous allez régler les soins qui vont vous être procurés. Si j’avais bien une assurance qui pouvait couvrir ces frais médicaux japonais, celle-ci était basée en France. Puisqu’il semblait qu’elle était inconnue de ce service, ils ont longuement insisté pour obtenir une preuve de ma souscription à une assurance nationale japonaise, que naturellement je ne possédais pas. La barrière de la langue n'arrangeant rien, il aura fallu une heure de négociation et l’intervention de mon responsable à l’université de Yokohama avant que je puisse être finalement soignée. Aujourd’hui encore, je ne sais pas vraiment ce que m’a diagnostiqué le médecin qui ne parlait pas anglais, néanmoins j’ai été remise sur pied très rapidement. Cet incident à tout de même contrecarrer mes plans de monter le Mont Fuji avec des amies, faute d’être rétablie à temps
+			</p>
+			<br><p>Néanmoins, cet imprévu ne m’a pas empêché de continuer d’explorer le pays à ma manière. Les gares et stations de métro faisaient donc partie de mon quotidien au Japon, que ce soit pour rejoindre la capitale, situé à une demi-heure en métro de ma résidence, ou pour partir en excursion pour découvrir le pays. Les gares japonaises ont d’ailleurs mis en place un système de tampons dont j’étais une grande adepte. En effet, chaque gare du pays comprend un tampon représentant le logo de la ville, afin que les touristes gardent un souvenir original de leur passage. Je ne suis pas peu fier de ma collection personnelle qui s'élève à cent cinquante deux <em>ekistampu</em> ( tampon de gare). Sans vous détailler ici chacun de mes voyages, je tiens tout de même à souligner la chance que j’ai eue de pouvoir explorer ce pays fascinant en profondeur. Le temps passé sur place m’a permis de découvrir chaque destination à mon rythme, sans précipitation, et parfois même d’aller au-delà des parcours touristiques classiques. Je souhaiterais tout de même évoquer avec vous une visite que j’ai faite avec trois de mes amies, et qui m’a particulièrement marquée, celle de la ville d’Hiroshima. Si mes pérégrinations étaient des moments légers et de détente, nous savions qu’à Hiroshima, ce ne serait pas le cas. Le 6 août 1945, la ville a été entièrement détruite par une bombe atomique américaine. Néanmoins, les lieux ont été reconstruits et la ville ressemble à première vue à n’importe quelle autre. Ainsi, il était très étrange de se dire que nous déambulions dans ce qui était autrefois un cimetière à ciel ouvert. Des monuments subsistent, afin de rappeler la tragédie des lieux comme la <em>Flamme de la paix</em>, le <em>Dôme De Genbaku</em> qui est une ruine datant de l’explosion, et bien sûr le <em>Mémorial de la paix</em> et son musée.
+					Celui-ci rappelle sans détour la dévastation et la souffrance qu'ont subi les habitants de la ville, et un tiers de la visite de ce musée est dédiée à la lutte contre le développement des armes atomiques dans le monde. J’ai été d’abord déconcerté par la juxtaposition entre le dynamisme de la ville et la gravité de son passé, et je me suis sincèrement demandée comment il était possible de demeurer dans une ville à l’histoire aussi dramatique et tragique. Mais finalement, je trouve que la transformation de cet espace, autrefois marqué par la mort et la destruction, en un lieu vivant et animé où les gens se rassemblent, partagent et peuvent être heureux, incarne une puissante capacité de résilience. C’est comme-si les lieux avaient été réinvestis par la vie elle-même, transformant ainsi la mémoire en un témoignage d’espoir. 
+			</p>
+
+		</div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+				<!-- Nouvelle vidéo -->
+        <br><br><br><br><br><br><br><br><br><br><br><video controls width="100%" muted>
+            <source src="videochat.mp4" type="video/mp4">
+			<!-- Texte alternatif si le navigateur ne supporte pas la vidéo -->
+            Votre navigateur ne prend pas en charge les vidéos HTML5.
+        </video>
+		<figcaption>Vidéo d'un écran géant du quartier de Shinjuku</figcaption>
+            
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="planshinjuku.jpg" alt="Carte en 3D de la station de métro de Shinku, carte du site de la JR East">
+			<figcaption>Plan en 3D de la station de métro de Shinjuku du site de la JR East</figcaption>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="pompadour.jpg" alt="tatoo interdit">
+			<figcaption>Logo de la marque <em>Pompadour</em> provonant de son site internet.</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="resto.jpg" alt="tatoo interdit">
+			<figcaption>Photo de l'intérieur d'un restaurant à Tokyo</figcaption>
+			<br><br><br><br><br><br><br><br><br><img src="okono.jpg" alt="tatoo interdit">
+			<figcaption>Photo d'<em>Okonomiyaki</em><br>plat composé d'une pâte qui enrobe un nombre d'ingrédients très variables découpés en petits morceaux, le tout cuit sur une plaque chauffante</figcaption>
+			<br><br><br><br><br><img src="clinique.jpeg" alt="tatoo interdit">
+			<figcaption>Photo dans la salle d'attente de la clinique</figcaption>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="hiroshima.jpg" alt="tatoo interdit">
+			<figcaption>Photo à l'argentique depuis un temple surplombant la ville d'Hiroshima</figcaption>
+			
+			</figure>
+        </div>
+		
+}
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
